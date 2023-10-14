@@ -1,0 +1,14 @@
+# Camculates university grades for students
+Semester1 = float(input("what's your S1 grade? "))
+Semester2 = float(input("what's your S2 grade? "))
+Semester3 = float(input("what's your S3 grade? "))
+Semester4 = float(input("what's your S4 grade? "))
+First_year = (Semester1 + Semester2) / 2
+Second_year = (Semester3 + Semester4) / 2
+Deug = (First_year + Second_year) / 2
+print("Deug: ", Deug)
+Semester5 = float(input("what's your S5 grade? "))
+Semester6 = float(input("what's your S6 grade? "))
+Third_year = (Semester5 + Semester6) / 2
+Bachelor = (Deug + Third_year) / 2
+print("Bechelor: ", Bachelor)
